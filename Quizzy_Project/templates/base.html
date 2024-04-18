@@ -1,0 +1,29 @@
+<!-- base.html -->
+{% load static %}
+<html lang="en">
+<head>
+    {% block title %}<title>Quizzy</title>{% endblock %}
+    <link href="{% static "css/base.css" %}" rel="stylesheet">
+</head>
+<body>
+    {% block sidebar %}
+    {% if user.is_authenticated %}
+        <p>Hi {{ user.username }}!</p>
+        <p><a href="{% url 'logout' %}">logout</a></p>
+    {% else %}
+        <p>You are not logged in.</p>
+        <p><a href="{% url 'login' %}">login</a> <a href="{% url 'signup' %}">signup</a></p>
+    {% endif %}
+
+    <ul class="sidebar-nav">
+        <li><a href="{% url 'quiz_list' %}">Home</a></li>
+        <li><a href="{% url 'quiz_create' %}">Create Quiz</a></li>
+        <li><a href="{% url 'import_quizzes' %}">Import Quizzes</a></li>
+    </ul>
+
+    {% endblock %}
+
+    {% block content %}
+    {% endblock content%}
+</body>
+</html>

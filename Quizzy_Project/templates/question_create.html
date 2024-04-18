@@ -1,0 +1,19 @@
+<!-- question_create.html -->
+<head>
+    <meta charset="UTF-8">
+    <title>Create Question</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+
+    {% block content %}
+    <h1>Create a New Question</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save Question</button>
+    </form>
+    <a href="{% url 'quiz_detail' pk=quiz_pk %}">Back to Quiz</a>
+    {% endblock %}
+</body>
+</html>

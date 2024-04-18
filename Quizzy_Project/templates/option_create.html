@@ -1,0 +1,18 @@
+<!-- option_create.html -->
+<head>
+    <meta charset="UTF-8">
+    <title>Create Option</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+
+    {% block content %}
+    <h1>Create a New Option</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Save Option">
+    </form>
+    {% endblock %}
+</body>
+</html>

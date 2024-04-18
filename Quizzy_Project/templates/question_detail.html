@@ -1,0 +1,13 @@
+<!-- question_detail.html -->
+{% extends 'base.html' %}
+{% block content %}
+<h1>{{ question.text }}</h1>
+<p>Options:</p>
+<ol>
+    {% for option in question.options.all %}
+    <li>{{ option.text }} <a href="{% url 'option_delete' question_id=question.id pk=option.id %}"> - Delete Option</a></li>
+    {% endfor %}
+</ol>
+<p><a href="{% url 'option_create' question.id %}">+ Option Question</a></p>
+<p><a href="{% url 'question_delete' question.pk %}">- Delete Question</a></p>
+{% endblock %}

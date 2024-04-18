@@ -6,21 +6,16 @@
 
 ```mermaid
 flowchart LR
-    A[HomePageView] --> B(Create Account)
-    A --> C[Login]
-    C --> D[HomePageView]
-    D --> E{"Attempt Quiz"}
-    E --> F[Get Result]
-    E --> G[Delete Quiz]
-    G --> H{"Delete Question"}
-    H --> I[Delete Option]
-    D --> J{"Create Quiz"}
-    J --> K[test question]
-    K --> L[Delete Question]
-    D --> M{"Create Question"}
-    M --> N[test question]
-    N --> O[Assign Options]
-    O --> P[Delete Option]
+    A(HomePageView) -->|Create Account| B(CreateAccount)
+    A -->|Login| C(Login)
+    C -->|Attempt Quiz| D(AttemptQuiz)
+    C -->|Import Quizzes| E(ImportQuizzes)
+    E -->|Use CSV| F(UseCSV)
+    C -->|Create Quiz| G(CreateQuiz)
+    C -->|Delete Quiz| H(DeleteQuiz)
+    C -->|Create Question| I(CreateQuestion)
+    C -->|Assign Options| J(AssignOptions)
+    D -->|Get Result| K(GetResult)
 ```
 
 ### Data Structure:

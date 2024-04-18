@@ -30,6 +30,7 @@ The project is divided into distinct phases in line with the Waterfall model: Re
 ### Members
 - **Kenny Kou (P2204712)**:
 - **Alex Leong(P2204876)**:
+- **Matthew NG(P2204935)**:
 
 ### Schedule
 - **Day 1**: System design and architecture planning.

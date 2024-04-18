@@ -2,7 +2,7 @@
 
 ## Graphical Abstract
 #TODO
-### Database:
+### Data Structure:
 ![Cute DB](https://i.imgur.com/2MpdU5S.png "A cute DB")
 
 ## Demo

@@ -26,6 +26,56 @@ flowchart LR
 ### Data Structure:
 ![Cute DB](https://i.imgur.com/2MpdU5S.png "A cute DB")
 
+```mermaid
+erDiagram
+    USERS ||--o{ QUIZZES : owns
+    USERS ||--o{ USER_ANSWERS : answers
+    QUIZZES ||--o{ QUESTIONS : contains
+    QUESTIONS ||--o{ OPTIONS : includes
+    QUESTIONS ||--o{ USER_ANSWERS : answered
+    OPTIONS ||--o{ USER_ANSWERS : selected
+
+    USERS {
+        integer id PK "primary key"
+        varchar username
+        varchar email
+        varchar password
+        boolean is_staff
+        boolean is_active
+        timestamp date_joined
+    }
+
+    QUIZZES {
+        integer id PK "primary key"
+        varchar title
+        text description
+        timestamp created_at
+        integer owner_id FK "foreign key to USERS"
+    }
+
+    QUESTIONS {
+        integer id PK "primary key"
+        integer quiz_id FK "foreign key to QUIZZES"
+        varchar text
+        timestamp created_at
+    }
+
+    OPTIONS {
+        integer id PK "primary key"
+        integer question_id FK "foreign key to QUESTIONS"
+        varchar text
+        boolean is_correct
+    }
+
+    USER_ANSWERS {
+        integer id PK "primary key"
+        integer user_id FK "foreign key to USERS"
+        integer question_id FK "foreign key to QUESTIONS"
+        integer selected_option_id FK "foreign key to OPTIONS"
+        boolean is_correct
+    }
+```
+
 ## Demo
 #TODO
 

@@ -3,6 +3,26 @@
 ## Graphical Abstract
 ### Flow:
 ![Cute Flow](https://i.imgur.com/nFfABcg.jpeg "A cute Flow")
+
+```mermaid
+flowchart LR
+    A[HomePageView] --> B(Create Account)
+    A --> C[Login]
+    C --> D[HomePageView]
+    D --> E{"Attempt Quiz"}
+    E --> F[Get Result]
+    E --> G[Delete Quiz]
+    G --> H{"Delete Question"}
+    H --> I[Delete Option]
+    D --> J{"Create Quiz"}
+    J --> K[test question]
+    K --> L[Delete Question]
+    D --> M{"Create Question"}
+    M --> N[test question]
+    N --> O[Assign Options]
+    O --> P[Delete Option]
+```
+
 ### Data Structure:
 ![Cute DB](https://i.imgur.com/2MpdU5S.png "A cute DB")
 
@@ -29,9 +49,9 @@ Quizzy is designed as a personal practice tool for users preparing for various t
 The project is divided into distinct phases in line with the Waterfall model: Requirements, Design, Implementation, Verification, and Maintenance. 
 
 ### Members
-- **Kenny Kou (P2204712)**:Configuring views and urls and models for the app.
-- **Alex Leong (P2204876)**:Configuring templates,graphical abstract,ideas for future plan section
-- **Matthew NG (P2204935)**:Responsible for demo video editing,providing help on configuring templates and future plan.
+- **Kenny Kou (P2204712)**: Configuring views and urls and models for the app.
+- **Alex Leong (P2204876)**: Configuring templates,graphical abstract,ideas for future plan section
+- **Matthew NG (P2204935)**: Responsible for demo video editing,providing help on configuring templates and future plan.
 
 ### Schedule
 - **Day 1**: System design and architecture planning.

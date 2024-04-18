@@ -2,7 +2,7 @@
 
 ## Graphical Abstract
 ### Flow:
-![Cute Flow](blob:https://imgur.com/22dd1c30-3cde-4aaf-befc-aedda525548d "A cute Flow")
+![Cute Flow](https://i.imgur.com/nFfABcg.jpeg "A cute Flow")
 ### Data Structure:
 ![Cute DB](https://i.imgur.com/2MpdU5S.png "A cute DB")
 

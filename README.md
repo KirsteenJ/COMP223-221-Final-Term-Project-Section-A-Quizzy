@@ -120,3 +120,5 @@ The backend for quiz and question creation is complete. Frontend design and the 
 4. In terms of user creation, we will add more levels, such as 'teacher', 'student', etc.
 5. We will add a database to create a public question bank, allowing each user to upload 1-5 question files.
 6. We will add a feature in the question settings to randomize the order of the questions and the number of questions to be answered.
+7. Mobile Responsiveness: Ensuring the application is fully responsive on various devices.
+8. Security: Enhancing security measures to protect user data and the integrity of quiz results.

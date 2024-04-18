@@ -3,7 +3,7 @@
 ## Graphical Abstract
 #TODO
 ### Database:
-![Image](https://imgur.com/a/B68XkJF)
+![Cute DB](https://i.imgur.com/2MpdU5S.png) "A cute DB")
 
 ## Demo
 #TODO

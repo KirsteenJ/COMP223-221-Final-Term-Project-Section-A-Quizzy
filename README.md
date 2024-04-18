@@ -89,7 +89,12 @@ Quizzy is designed as a personal practice tool for users preparing for various t
 ## Software Development Plan
 
 ### Development Process
-The project is divided into distinct phases in line with the Waterfall model: Requirements, Design, Implementation, Verification, and Maintenance. 
+The project is divided into distinct phases in line with the Waterfall model: Requirements, Design, Implementation, Verification, and Deployment. 
+- **Requirement Analysis**: Examine the application code and outline necessary functionalities, such as user authentication, quiz creation, importation of quiz data, and tracking user progress.
+- **Design Phase**: Craft a detailed blueprint, considering Django's Model-View-Template (MVT) architecture, and plan the database schema and user interface flow.
+- **Implementation**: Follow the provided Django views to build out features, focusing on CRUD operations for quizzes, questions, options, and handling CSV imports.
+- **Verification**: Implement unit tests and integration tests to ensure each component and the entire application function correctly.
+- **Deployment**: Prepare the app for production by setting up a stable server, database, and static files hosting.
 
 ### Members
 - **Kenny Kou (P2204712)**: Configuring views and urls and models for the app.

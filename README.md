@@ -24,8 +24,6 @@ flowchart LR
 ```
 
 ### Data Structure:
-![Cute DB](https://i.imgur.com/2MpdU5S.png "A cute DB")
-
 ```mermaid
 erDiagram
     USERS ||--o{ QUIZZES : owns

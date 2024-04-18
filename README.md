@@ -66,4 +66,4 @@ The core algorithm handles quiz creation, option selection, and scoring. It ensu
 The backend for quiz and question creation is complete. Frontend design and the import functionality for quizzes are testing.
 
 ### Future Plan
-#TODO
+Moving forward, we plan to introduce an audio test feature and we will support the uploading of MP3 files. We are also adding a scoreboard feature for public online ranking, which includes the name, usage time, date, and ranking. For individual users, we will add a test record feature to help users identify their mistakes. In the user creation feature, we will add user levels, such as teacher, student, etc. In addition, we will add a database to create a public question bank, where each user can upload 1-5 question files. Finally, we will add a feature to randomize the order of the questions and the number of questions to be answered in the question settings.

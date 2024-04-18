@@ -28,7 +28,7 @@ Quizzy is designed as a personal practice tool for users preparing for various t
 The project is divided into distinct phases in line with the Waterfall model: Requirements, Design, Implementation, Verification, and Maintenance. 
 
 ### Members
-#TODO
+- **Kenny Kou (P2204712)**: 
 
 ### Schedule
 - **Day 1**: System design and architecture planning.

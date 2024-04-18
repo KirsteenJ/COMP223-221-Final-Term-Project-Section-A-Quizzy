@@ -29,9 +29,9 @@ Quizzy is designed as a personal practice tool for users preparing for various t
 The project is divided into distinct phases in line with the Waterfall model: Requirements, Design, Implementation, Verification, and Maintenance. 
 
 ### Members
-- **Kenny Kou (P2204712)**:
-- **Alex Leong (P2204876)**:
-- **Matthew NG (P2204935)**:
+- **Kenny Kou (P2204712)**:Configuring views and urls and models for the app.
+- **Alex Leong (P2204876)**:Configuring templates,graphical abstract,ideas for future plan section
+- **Matthew NG (P2204935)**:Responsible for demo video editing,providing help on configuring templates and future plan.
 
 ### Schedule
 - **Day 1**: System design and architecture planning.

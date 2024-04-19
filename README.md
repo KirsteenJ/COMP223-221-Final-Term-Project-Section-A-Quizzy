@@ -2,7 +2,8 @@
 
 ## Graphical Abstract
 ### Flow:
-![Cute Flow](https://i.imgur.com/nFfABcg.jpeg "A cute Flow")
+![Cute Flow](https://media.discordapp.net/attachments/1046753920460017688/1230901790258630686/GraphicalAb.jpg?ex=6635019f&is=66228c9f&hm=9f30e413221fd3165f22a0d1d3e2b13e4ac6b9e575b20a1c46aaab97dde4bfab&=&format=webp&width=1210&height=934
+ "A cute Flow")
 
 ```mermaid
 flowchart LR

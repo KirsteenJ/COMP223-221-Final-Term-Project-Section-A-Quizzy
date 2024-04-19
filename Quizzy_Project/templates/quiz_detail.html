@@ -14,7 +14,7 @@
 
     <ol class="list-group">
         {% for question in quiz.questions.all %}
-            <li class="list-group-item"><a href="{% url 'question_detail' pk=question.pk %}">{{ question.text }}</a></li>
+            <li class="list-group-item"><a href="{% url 'question_detail' pk=question.pk %}" class="btn3">{{ question.text }}</a></li>
         {% endfor %}
     </ol>
 

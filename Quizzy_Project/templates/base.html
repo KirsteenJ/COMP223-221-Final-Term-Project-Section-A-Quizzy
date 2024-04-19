@@ -16,9 +16,9 @@
     {% endif %}
 
     <ul class="sidebar-nav">
-        <li><a href="{% url 'quiz_list' %}">Home</a></li>
-        <li><a href="{% url 'quiz_create' %}">Create Quiz</a></li>
-        <li><a href="{% url 'import_quizzes' %}">Import Quizzes</a></li>
+        <li><a href="{% url 'quiz_list' %}" class="btn from-top">Home</a></li>
+        <li><a href="{% url 'quiz_create' %}" class="btn from-bottom">Create Quiz</a></li>
+        <li><a href="{% url 'import_quizzes' %}" class="btn from-left">Import Quizzes</a></li>
     </ul>
 
     {% endblock %}

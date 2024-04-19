@@ -12,7 +12,7 @@
         <p><a href="{% url 'logout' %}">logout</a></p>
     {% else %}
         <p>You are not logged in.</p>
-        <button class="btn2" data-hover="Welcome!"><p><a href="{% url 'login' %}">login</a></button> <button class="btn2" data-hover="nice to meet you!"><a href="{% url 'signup' %}">signup</a></p></button>
+        <button class="btn2" data-hover="Welcome!"><p><a href="{% url 'login' %}">login</a></p></button> <button class="btn2" data-hover="nice to meet you!"><p><a href="{% url 'signup' %}">signup</a></p></button>
     {% endif %}
 
     <ul class="sidebar-nav">

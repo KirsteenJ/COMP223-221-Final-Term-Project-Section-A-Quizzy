@@ -9,7 +9,7 @@
         <li><a href="{% url 'question_detail' pk=question.pk %}">{{ question.text }}</a></li>
     {% endfor %}
 </ol>
-<h1><a href="{% url 'attempt_quiz' quiz.id %}">-=Attempt Quiz=-</a></h1>
+<h1><a href="{% url 'attempt_quiz' quiz.id %}" class="btn3">-=Attempt Quiz=-</a></h1>
 <p><a href="{% url 'question_create' quiz.id %}">+ Create Question</a></p>
 <p><a href="{% url 'quiz_delete' quiz.pk %}">- Delete Quiz</a></p>
 {% endblock %}

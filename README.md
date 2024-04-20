@@ -121,7 +121,7 @@ flowchart LR
 
 #### Import Quizzes With CSV:
 <p>
-    <a href="https://ibb.co/CbKMH2Z"><img src="https://i.ibb.co/K2xLrwk/Algorithm.png" alt="Algorithm" border="0"></a><br /><a target='_blank' href='https://emoticoncentral.com/category/speedboat'>speedboat smileys</a><br />
+    <a href="https://ibb.co/v3rt9p5"><img src="https://i.ibb.co/ZBwZ95s/Algorithm.png" alt="Algorithm" border="0"></a>
 </p>
 
 ### Progress Pulse

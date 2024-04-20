@@ -84,23 +84,10 @@ flowchart TD
     B --> |Read records| J[View All Quizzes, Questions & Options]
     J -.-> |Query records| DB
     I -.-> |Create records| DB
+    H -.-> |Create records| DB
 ```
 
-#### Import Quizzes With CSV:
-```mermaid
-graph TD
-    st(Start) --> op1(Receive CSV Form Submission)
-    op1 --> cond{Is Form Data Valid?}
-    cond -- Yes --> op2(Read CSV Content)
-    op2 --> op3(Parse Fields & Update Database)
-    op3 --> sub2(Redirect to Quiz List)
-    sub2 --> e(End)
-    cond -- No --> io1(Display Error Messages)
-    io1 --> sub1(Redirect to Form Page)
-    sub1 --> op1
-```
-
-### Data Structure:
+#### Data Structure:
 ```mermaid
 erDiagram
     USERS ||--o{ QUIZZES : owns

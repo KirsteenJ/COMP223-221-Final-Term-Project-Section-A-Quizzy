@@ -154,7 +154,7 @@ Tomorrow's Quizzy shines with features unheard and unseen:
 ### Programming Language:
 
 - **Backend**: Python with the Django framework.
-- **Frontend**: HTML, CSS, and JavaScript for a dynamic and responsive user interface.
+- **Frontend**: HTML and CSS for a dynamic and responsive user interface.
 
 ### Minimum Hardware Requirements:
 

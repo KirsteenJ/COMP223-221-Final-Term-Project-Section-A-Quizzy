@@ -58,7 +58,7 @@ erDiagram
 
 **Feeling puzzled about preparing for your exams? Say goodbye to confusion with Quizzy, the charming practice buddy designed to make your test prep as easy as pie!** 🍰
 
-## Getting Started
+## ✨ Getting Started
 Curious to dive in? Take a peek at Quizzy in action. Just hop over to ➔ [Demo Web APP](http://getbackwork.pythonanywhere.com/quiz)
 
 ## 🚀 Video Demo

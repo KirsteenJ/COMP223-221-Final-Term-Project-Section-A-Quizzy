@@ -126,3 +126,37 @@ Tomorrow's Quizzy shines with features unheard and unseen:
 * 🔀 A merry-go-round of questions; neither knowing start nor end.
 * 📱 Device dances, ensuring a sway-friendly Quizzy.
 * 🔒 Fortified bastions guarding the sanctity of your Quizzy journey.
+
+## Environments of Software Development and Running
+
+### Programming Language:
+
+- **Backend**: Python with Django framework.
+- **Frontend**: HTML, CSS, and JavaScript.
+
+### Minimum Hardware Requirements:
+
+- **Processor**: 1 GHz or faster recommended.
+- **RAM**: At least 512 MB, with 2 GB recommended.
+- **Storage**: Minimum 100 MB of free space for Django, and more for project data.
+
+### Minimum Software Requirements:
+
+- **Operating System**: Compatible with Windows, MacOS, Linux.
+- **Python**: Version 3.7 or newer, up to Python 3.9.
+- **Django**: 3.2.
+- **Web Browser**: Latest version of Chrome, Firefox, Safari, or Edge.
+- **Database**: SQLite.
+
+### Required Packages:
+
+- `Django==3.2`: The core web framework used for Quizzy's backend development.
+- `djangorestframework`: For building Web APIs, if applicable. (Install this package if your project requires API functionality.)
+- `django-import-export`: To provide import and export functionalities for quizzes in CSV format.
+
+## Declarations
+
+### Open Sources and Packages Not Developed by the Group:
+
+- **Django Framework 3.2**: An open-source web framework that follows the model-template-views architectural pattern, used for Quizzy's backend structure.
+- **SQLite**: An embedded SQL database engine that comes bundled with Django, providing support for database operations without needing a separate server process.

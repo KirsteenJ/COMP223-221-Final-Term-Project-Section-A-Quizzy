@@ -14,17 +14,18 @@
 ```mermaid
 
 flowchart TD
-    A[User not logged in] -->|Log in/Sign up| B(Login/Sign up View)
-    A -->|View Quizzes| C{Homepage View}
-    B --> C
-    C -->|Attempt Quiz| D[Answer Questions]
-    C -->|Create Quiz| E[Create Questions]
-    C -->|Import Quiz| F[Import CSV]
-    D -->|View Results| G[Results View]
-    E -->|Assign Options| H[Create Options]
-    E -->|Delete Quiz| I[Deleted Quiz]
-    E -->|Delete Question| J[Deleted Question]
-    H -->|Delete Option| K[Deleted Option]
+    A[Start] -->|Go to Homepage| B{Homepage View}
+    B -->|Log in/Sign up| C(Login/Sign up View)
+    B -->|View Quizzes| D[View All Quizzes, Questions & Options]
+    C --> B
+    B -->|Attempt Quiz| E[Answer Questions]
+    B -->|Create Quiz| F[Create Questions]
+    B -->|Import Quiz| G[Import CSV]
+    E -->|View Results| H[Results View]
+    F -->|Assign Options| I[Create Options]
+    F -->|Delete Quiz| J[Deleted Quiz]
+    F -->|Delete Question| K[Deleted Question]
+    I -->|Delete Option| L[Deleted Option]
 ```
 
 **Feeling puzzled about preparing for your exams? Say goodbye to confusion with Quizzy, the charming practice buddy designed to make your test prep as easy as pie!** 🍰

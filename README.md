@@ -9,57 +9,6 @@
 ![Cute Flow](https://media.discordapp.net/attachments/1046753920460017688/1230901790258630686/GraphicalAb.jpg?ex=6635019f&is=66228c9f&hm=9f30e413221fd3165f22a0d1d3e2b13e4ac6b9e575b20a1c46aaab97dde4bfab&=&format=webp&width=1210&height=934
  "A cute Flow")
 
-### Data Structure:
-```mermaid
-erDiagram
-    USERS ||--o{ QUIZZES : owns
-    USERS ||--o{ USER_ANSWERS : answers
-    QUIZZES ||--o{ QUESTIONS : contains
-    QUESTIONS ||--o{ OPTIONS : includes
-    QUESTIONS ||--o{ USER_ANSWERS : answered
-    OPTIONS ||--o{ USER_ANSWERS : selected
-
-    USERS {
-        integer id PK "primary key"
-        varchar username
-        varchar email
-        varchar password
-        boolean is_staff
-        boolean is_active
-        timestamp date_joined
-    }
-
-    QUIZZES {
-        integer id PK "primary key"
-        varchar title
-        text description
-        timestamp created_at
-        integer owner_id FK "foreign key to USERS"
-    }
-
-    QUESTIONS {
-        integer id PK "primary key"
-        integer quiz_id FK "foreign key to QUIZZES"
-        varchar text
-        timestamp created_at
-    }
-
-    OPTIONS {
-        integer id PK "primary key"
-        integer question_id FK "foreign key to QUESTIONS"
-        varchar text
-        boolean is_correct
-    }
-
-    USER_ANSWERS {
-        integer id PK "primary key"
-        integer user_id FK "foreign key to USERS"
-        integer question_id FK "foreign key to QUESTIONS"
-        integer selected_option_id FK "foreign key to OPTIONS"
-        boolean is_correct
-    }
-```
-
 **Feeling puzzled about preparing for your exams? Say goodbye to confusion with Quizzy, the charming practice buddy designed to make your test prep as easy as pie!** 🍰
 
 ## ✨ Getting Started
@@ -123,6 +72,57 @@ flowchart LR
 <p>
     <a href="https://ibb.co/v3rt9p5"><img src="https://i.ibb.co/ZBwZ95s/Algorithm.png" alt="Algorithm" border="0"></a>
 </p>
+
+### Data Structure:
+```mermaid
+erDiagram
+    USERS ||--o{ QUIZZES : owns
+    USERS ||--o{ USER_ANSWERS : answers
+    QUIZZES ||--o{ QUESTIONS : contains
+    QUESTIONS ||--o{ OPTIONS : includes
+    QUESTIONS ||--o{ USER_ANSWERS : answered
+    OPTIONS ||--o{ USER_ANSWERS : selected
+
+    USERS {
+        integer id PK "primary key"
+        varchar username
+        varchar email
+        varchar password
+        boolean is_staff
+        boolean is_active
+        timestamp date_joined
+    }
+
+    QUIZZES {
+        integer id PK "primary key"
+        varchar title
+        text description
+        timestamp created_at
+        integer owner_id FK "foreign key to USERS"
+    }
+
+    QUESTIONS {
+        integer id PK "primary key"
+        integer quiz_id FK "foreign key to QUIZZES"
+        varchar text
+        timestamp created_at
+    }
+
+    OPTIONS {
+        integer id PK "primary key"
+        integer question_id FK "foreign key to QUESTIONS"
+        varchar text
+        boolean is_correct
+    }
+
+    USER_ANSWERS {
+        integer id PK "primary key"
+        integer user_id FK "foreign key to USERS"
+        integer question_id FK "foreign key to QUESTIONS"
+        integer selected_option_id FK "foreign key to OPTIONS"
+        boolean is_correct
+    }
+```
 
 ### Progress Pulse
 Backend brilliance ready! Frontend finery and quiz-importing alchemy in the test crucible.

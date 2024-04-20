@@ -11,23 +11,6 @@
 ![Cute Flow](https://media.discordapp.net/attachments/1046753920460017688/1230901790258630686/GraphicalAb.jpg?ex=6635019f&is=66228c9f&hm=9f30e413221fd3165f22a0d1d3e2b13e4ac6b9e575b20a1c46aaab97dde4bfab&=&format=webp&width=1210&height=934
  "A cute Flow")
 
-```mermaid
-
-flowchart TD
-    A[Start] -->|Go to Homepage| B{Homepage View}
-    B -->|Log in/Sign up| C(Login/Sign up View)
-    B -->|View Quizzes| D[View All Quizzes, Questions & Options]
-    C --> B
-    B -->|Attempt Quiz| E[Answer Questions]
-    B -->|Create Quiz| F[Create Questions]
-    B -->|Import Quiz| G[Import CSV]
-    E -->|View Results| H[Results View]
-    F -->|Assign Options| I[Create Options]
-    F -->|Delete Quiz| J[Deleted Quiz]
-    F -->|Delete Question| K[Deleted Question]
-    I -->|Delete Option| L[Deleted Option]
-```
-
 **Feeling puzzled about preparing for your exams? Say goodbye to confusion with Quizzy, the charming practice buddy designed to make your test prep as easy as pie!** 🍰
 
 ## ✨ Getting Started

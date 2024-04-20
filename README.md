@@ -71,10 +71,21 @@ flowchart LR
 ```
 
 #### Import Quizzes With CSV:
-<p>
-    <a href="https://ibb.co/v3rt9p5"><img src="https://i.ibb.co/ZBwZ95s/Algorithm.png" alt="Algorithm" border="0"></a>
-</p>
+```flow
+st=>start: Start
+e=>end: End
+op1=>operation: Receive CSV Form Submission
+cond=>condition: Is Form Data Valid?
+op2=>operation: Read CSV Content
+op3=>operation: Parse Fields & Update Database
+io1=>inputoutput: Display Error Messages
+sub1=>subroutine: Redirect to Form Page
+sub2=>subroutine: Redirect to Quiz List
 
+st->op1->cond
+cond(yes, right)->op2->op3->sub2->e
+cond(no)->io1->sub1(right)->op1
+```
 
 ### Data Structure:
 ```mermaid

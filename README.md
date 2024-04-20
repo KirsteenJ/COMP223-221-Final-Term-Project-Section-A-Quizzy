@@ -58,8 +58,11 @@ erDiagram
 
 **Feeling puzzled about preparing for your exams? Say goodbye to confusion with Quizzy, the charming practice buddy designed to make your test prep as easy as pie!** 🍰
 
-## 🚀 Quick Demo
+## Getting Started
 Curious to dive in? Take a peek at Quizzy in action. Just hop over to ➔ [Demo Web APP](http://getbackwork.pythonanywhere.com/quiz)
+
+## 🚀 Video Demo
+#TODO
 
 ## 🎯 Purpose
 **Quizzy** is not just a tool; it's your personal cheerleader- ensuring you're sprint-ready for any test coming your way. Whether it's acing your school exams or smashing that professional certification, Quizzy's got your back!
@@ -133,32 +136,40 @@ Tomorrow's Quizzy shines with features unheard and unseen:
 
 ### Programming Language:
 
-- **Backend**: Python with Django framework.
-- **Frontend**: HTML, CSS, and JavaScript.
+- **Backend**: Python with the Django framework.
+- **Frontend**: HTML, CSS, and JavaScript for a dynamic and responsive user interface.
 
 ### Minimum Hardware Requirements:
 
 - **Processor**: 1 GHz or faster recommended.
 - **RAM**: At least 512 MB, with 2 GB recommended.
-- **Storage**: Minimum 100 MB of free space for Django, and more for project data.
+- **Storage**: Minimum 100 MB of free space for Django, plus additional space for project data.
 
 ### Minimum Software Requirements:
 
 - **Operating System**: Compatible with Windows, MacOS, Linux.
 - **Python**: Version 3.7 or newer, up to Python 3.9.
 - **Django**: 3.2.
-- **Web Browser**: Latest version of Chrome, Firefox, Safari, or Edge.
-- **Database**: SQLite.
+- **Web Browser**: Latest version of popular browsers like Chrome, Firefox, Safari, or Edge.
+- **Database**: SQLite, included with Django.
 
 ### Required Packages:
 
-- `Django==3.2`: The core web framework used for Quizzy's backend development.
-- `djangorestframework`: For building Web APIs, if applicable. (Install this package if your project requires API functionality.)
-- `django-import-export`: To provide import and export functionalities for quizzes in CSV format.
+- `Django==3.2`
+- `djangorestframework` (optional, for API functionality)
+- `django-import-export` (for CSV import/export functionalities)
+
+## Hosting:
+
+Quizzy is hosted on [PythonAnywhere](https://www.pythonanywhere.com/), an online platform that makes it easy to set up and manage a Python-based web application. This service provides a hassle-free environment for running Quizzy without dealing with system-specific setup procedures.
 
 ## Declarations
 
-### Open Sources and Packages Not Developed by the Group:
+### Dependencies Not Developed by the Team:
 
-- **Django Framework 3.2**: An open-source web framework that follows the model-template-views architectural pattern, used for Quizzy's backend structure.
-- **SQLite**: An embedded SQL database engine that comes bundled with Django, providing support for database operations without needing a separate server process.
+- **Django 3.2**: An open-source web framework used for backend development in Python.
+- **SQLite**: A relational database management system contained in a C library that provides a self-contained, serverless, zero-configuration, transactional SQL database engine.
+
+## Conclusion
+
+Inspired to streamline the learning process, Quizzy is your go-to platform for interactive and effective quiz preparation. Join us on your quest for knowledge, and keep an eye out for forthcoming features and enhancements that will elevate your study sessions!

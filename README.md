@@ -136,7 +136,7 @@ Tomorrow's Quizzy shines with features unheard and unseen:
 * 📱 Device dances, ensuring a sway-friendly Quizzy.
 * 🔒 Fortified bastions guarding the sanctity of your Quizzy journey.
 
-## Environments of Software Development and Running
+## 🤝 Environments of Software Development and Running
 
 ### Programming Language:
 

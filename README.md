@@ -71,20 +71,17 @@ flowchart LR
 ```
 
 #### Import Quizzes With CSV:
-```flow
-st=>start: Start
-e=>end: End
-op1=>operation: Receive CSV Form Submission
-cond=>condition: Is Form Data Valid?
-op2=>operation: Read CSV Content
-op3=>operation: Parse Fields & Update Database
-io1=>inputoutput: Display Error Messages
-sub1=>subroutine: Redirect to Form Page
-sub2=>subroutine: Redirect to Quiz List
-
-st->op1->cond
-cond(yes, right)->op2->op3->sub2->e
-cond(no)->io1->sub1(right)->op1
+```mermaid
+graph TD
+    st(Start) --> op1(Receive CSV Form Submission)
+    op1 --> cond{Is Form Data Valid?}
+    cond -- Yes --> op2(Read CSV Content)
+    op2 --> op3(Parse Fields & Update Database)
+    op3 --> sub2(Redirect to Quiz List)
+    sub2 --> e(End)
+    cond -- No --> io1(Display Error Messages)
+    io1 --> sub1(Redirect to Form Page)
+    sub1 --> op1
 ```
 
 ### Data Structure:

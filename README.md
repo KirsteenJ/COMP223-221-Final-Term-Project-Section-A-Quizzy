@@ -17,12 +17,7 @@
 Curious to dive in? Take a peek at Quizzy in action. Just hop over to ➔ [Demo Web APP](http://getbackwork.pythonanywhere.com/quiz)
 
 ## 📺 Video Demo
-➔ [Video Demo](https://www.youtube.com/watch?v=aXe6G1CYO94&ab_channel=COMP223-classA-Quizzy)
-
-Want to see Quizzy in action? Check out this demo video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aXe6G1CYO94" title="Quizzy Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Want to see Quizzy in action? Check out this demo video ➔ [Video Demo](https://www.youtube.com/watch?v=aXe6G1CYO94&ab_channel=COMP223-classA-Quizzy)
 
 ## 🎯 Purpose
 **Quizzy** is not just a tool; it's your personal cheerleader- ensuring you're sprint-ready for any test coming your way. Whether it's acing your school exams or smashing that professional certification, Quizzy's got your back!

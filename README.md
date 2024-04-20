@@ -15,7 +15,8 @@
 
 flowchart TD
     A[User not logged in] -->|Log in/Sign up| B(Login/Sign up View)
-    B --> C{Homepage View}
+    A -->|View Quizzes| C{Homepage View}
+    B --> C
     C -->|Attempt Quiz| D[Answer Questions]
     C -->|Create Quiz| E[Create Questions]
     C -->|Import Quiz| F[Import CSV]

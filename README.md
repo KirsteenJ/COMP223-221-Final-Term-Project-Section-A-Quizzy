@@ -97,7 +97,7 @@ Here's to the dream weavers behind Quizzy:
 * **Day 5:** The final review; a toast to completion.
 
 ### Algorithm
-### Overall:
+#### Overall:
 ```mermaid
 flowchart LR
     A(HomePageView) -->|Create Account| B(CreateAccount)
@@ -112,7 +112,7 @@ flowchart LR
     D -->|Get Result| K(GetResult)
 ```
 
-### Import Quizzes With CSV
+#### Import Quizzes With CSV
 #TODO
 
 ### Progress Pulse

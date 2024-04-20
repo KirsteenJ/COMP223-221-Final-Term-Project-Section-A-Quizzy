@@ -5,20 +5,6 @@
 ![Cute Flow](https://media.discordapp.net/attachments/1046753920460017688/1230901790258630686/GraphicalAb.jpg?ex=6635019f&is=66228c9f&hm=9f30e413221fd3165f22a0d1d3e2b13e4ac6b9e575b20a1c46aaab97dde4bfab&=&format=webp&width=1210&height=934
  "A cute Flow")
 
-```mermaid
-flowchart LR
-    A(HomePageView) -->|Create Account| B(CreateAccount)
-    A -->|Login| C(Login)
-    C -->|Attempt Quiz| D(AttemptQuiz)
-    C -->|Import Quizzes| E(ImportQuizzes)
-    E -->|Use CSV| F(UseCSV)
-    C -->|Create Quiz| G(CreateQuiz)
-    C -->|Delete Quiz| H(DeleteQuiz)
-    C -->|Create Question| I(CreateQuestion)
-    C -->|Assign Options| J(AssignOptions)
-    D -->|Get Result| K(GetResult)
-```
-
 ### Data Structure:
 ```mermaid
 erDiagram
@@ -110,8 +96,20 @@ Here's to the dream weavers behind Quizzy:
 * **Day 4:** Triumphing over bugs and glitches.
 * **Day 5:** The final review; a toast to completion.
 
-### The Code Conundrum
-At the heart of Quizzy lies the algorithmic pulse - a rhythmic wizardry that spins the wheels of creation, chronicling answers, and tallying scores with the grace of a seasoned maestro.
+### Algorithm
+```mermaid
+flowchart LR
+    A(HomePageView) -->|Create Account| B(CreateAccount)
+    A -->|Login| C(Login)
+    C -->|Attempt Quiz| D(AttemptQuiz)
+    C -->|Import Quizzes| E(ImportQuizzes)
+    E -->|Use CSV| F(UseCSV)
+    C -->|Create Quiz| G(CreateQuiz)
+    C -->|Delete Quiz| H(DeleteQuiz)
+    C -->|Create Question| I(CreateQuestion)
+    C -->|Assign Options| J(AssignOptions)
+    D -->|Get Result| K(GetResult)
+```
 
 ### Progress Pulse
 Backend brilliance ready! Frontend finery and quiz-importing alchemy in the test crucible.

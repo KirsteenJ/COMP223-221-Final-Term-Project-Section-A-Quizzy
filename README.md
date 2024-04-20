@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <a href="https://imgbb.com/"><img src="https://i.ibb.co/bBC01wb/favicon.webp" alt="favicon" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>post images</a><br />
+    <img src="https://i.ibb.co/bBC01wb/favicon.webp" alt="favicon" border="0">
 </p>
 
 

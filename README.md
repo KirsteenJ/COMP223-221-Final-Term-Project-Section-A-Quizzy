@@ -60,8 +60,12 @@ Here's to the dream weavers behind Quizzy:
 flowchart TD
     A[Start] --> B[Homepage View]
     B --> C{Logged in?}
-    C -- "No" --> D[Login/Sign up View]
-    D -- "Log in Successful" --> B
+    C -- "No" --> E[Login View]
+    E -- "Need to Sign Up" --> P[Sign Up View]
+    P -- "Sign Up Complete" --> E
+    B --> D[Logout]
+    D --> |Log out| B
+    E -- "Log in Successful" --> B
     C -- "Yes" --> F[Attempt Quiz]
     C -- "Yes" --> G[Create Quiz]
     C -- "Yes" --> H[Import Quiz]
@@ -77,10 +81,9 @@ flowchart TD
     N -.-> |Delete records| DB
     L -- "Delete Option" --> O[Deleted Option]
     O -.-> |Delete records| DB
-    B -- "Log out" --> A
-    B --> |Read records| E[View All Quizzes, Questions & Options]
-    E -.-> |Query records| DB
-    J -.-> |Create records| DB
+    B --> |Read records| J[View All Quizzes, Questions & Options]
+    J -.-> |Query records| DB
+    I -.-> |Create records| DB
 ```
 
 #### Import Quizzes With CSV:

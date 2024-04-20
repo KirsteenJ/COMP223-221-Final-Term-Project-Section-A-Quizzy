@@ -73,6 +73,7 @@ flowchart LR
     <a href="https://ibb.co/v3rt9p5"><img src="https://i.ibb.co/ZBwZ95s/Algorithm.png" alt="Algorithm" border="0"></a>
 </p>
 
+
 ### Data Structure:
 ```mermaid
 erDiagram

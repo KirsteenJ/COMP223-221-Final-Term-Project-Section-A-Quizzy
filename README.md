@@ -1,6 +1,6 @@
-# Quiz App Project: Quizzy
+# Quizzy: Your Ultimate Quiz Preparation Tool 📚✨
 
-## Graphical Abstract
+## Graphical Abstract 🎨
 ### Flow:
 ![Cute Flow](https://media.discordapp.net/attachments/1046753920460017688/1230901790258630686/GraphicalAb.jpg?ex=6635019f&is=66228c9f&hm=9f30e413221fd3165f22a0d1d3e2b13e4ac6b9e575b20a1c46aaab97dde4bfab&=&format=webp&width=1210&height=934
  "A cute Flow")
@@ -70,56 +70,59 @@ erDiagram
     }
 ```
 
-## Demo
-#TODO
+**Feeling puzzled about preparing for your exams? Say goodbye to confusion with Quizzy, the charming practice buddy designed to make your test prep as easy as pie!** 🍰
 
-[Demo Web APP](http://getbackwork.pythonanywhere.com/quiz)
+## 🚀 Quick Demo
+Curious to dive in? Take a peek at Quizzy in action. Just hop over to ➔ [Demo Web APP](http://getbackwork.pythonanywhere.com/quiz)
 
-## Purpose of the Software
-Quizzy is designed as a personal practice tool for users preparing for various tests. The objective is to provide a simple yet efficient way to create, practice, and evaluate quizzes to enhance learning and test preparation.
+## 🎯 Purpose
+**Quizzy** is not just a tool; it's your personal cheerleader- ensuring you're sprint-ready for any test coming your way. Whether it's acing your school exams or smashing that professional certification, Quizzy's got your back!
 
-### Software Development Process Applied
-- **Waterfall Model**: We chose the Waterfall model for its straightforwardness and structured approach, which is conducive to the small scale and well-defined scope of our project.
+## 💧 Software Development Process: The Classic Waterfall Model
+We embraced the time-honored Waterfall model, valuing its linear, cascading essence which aligns with our crisp and clear project outline.
 
-### Why This Type?
-- The Waterfall model allows our team to focus on a thorough requirement analysis and extensive planning at the early stages, ensuring a solid foundation for the rest of the project. Given that our app has a clear set of requirements with a predictable outcome, the sequential design of the Waterfall model suits our needs perfectly.
+### Why Waterfall? Here's the splash!
+* Structured and Steady: With a robust foundation phase and methodical overhead, we're on track to create Quizzy magic without any hitches.
+* A predictable playbook: No room for guesswork or improvisation, we're sticking to the script to craft an outstanding quiz experience for you.
 
-### Possible Usage
-- **Target Market**: Our primary users are students and professionals looking for an effective way to prepare for exams or test their knowledge in specific subjects. Quizzy can be used for self-assessment or in a study group as a collaborative learning tool.
+## 🎯 Target Market Snapshot
+From bustling students to career-boosting professionals, Quizzy is the perfect prep companion for anyone with an appetite for knowledge and a hunger for success.
 
-## Software Development Plan
+## 🛠️ Software Development Saga
 
-### Development Process
-The project is divided into distinct phases in line with the Waterfall model: Requirements, Design, Implementation, Verification, and Deployment. 
-- **Requirement Analysis**: Examine the application code and outline necessary functionalities, such as user authentication, quiz creation, importation of quiz data, and tracking user progress.
-- **Design Phase**: Craft a detailed blueprint, considering Django's Model-View-Template (MVT) architecture, and plan the database schema and user interface flow.
-- **Implementation**: Follow the provided Django views to build out features, focusing on CRUD operations for quizzes, questions, options, and handling CSV imports.
-- **Verification**: Implement unit tests and integration tests to ensure each component and the entire application function correctly.
-- **Deployment**: Prepare the app for production by setting up a stable server, database, and static files hosting.
+### The Creation Odyssey
+Following the Waterfall's legacy, we delved through stages from contemplation to realization:
+* **Blueprinting Dreams:** Sculpting out Quizzy's DNA from authentication marvels to progress tracking victories.
+* **Artful Designing:** Choreographing a symphony of screens and data dances, enriching Django's soul with our very own models and view masterpieces.
+* **Crafting the Core:** Breathing life into Quizzy with the real deal - CRUD spells, question conjurations, and CSV enchantments.
+* **Testing Triumphs:** Sending Quizzy through trials and tribulations with our rigorous test alchemists ensuring everything is tickety-boo.
+* **Global Unveiling:** Setting the stage with servers, database glam, and static showstoppers, we're red-carpet ready for Quizzy's grand entrance.
 
-### Members
-- **Kenny Kou (P2204712)**: Configuring views and urls and models for the app.
-- **Alex Leong (P2204876)**: Configuring templates,graphical abstract,ideas for future plan section
-- **Matthew NG (P2204935)**: Responsible for demo video editing,providing help on configuring templates and future plan.
+### The Visioneers
+Here's to the dream weavers behind Quizzy:
+* **Kenny Kou (P2204767)**: The code whisperer for views, urls, and models.
+* **Matthew NG (P2204935)**: The creative crusader for designing templates that aren't just visually pleasing but also intuitively navigable.
+* **Alex Leong (P2204876)**: The maestro of demos, graphic and documents, a support hero, and a visionary for now, then and tomorrow's Quizzy.
 
-### Schedule
-- **Day 1**: System design and architecture planning.
-- **Day 2~3**: Implementation of core functionalities.
-- **Day 4**: Testing and debugging.
-- **Day 5**: Final review and project wrap-up.
+### The March of Progress
+* **Day 1:** Conceiving the grand design.
+* **Day 2~3:** Breathing life into the creation.
+* **Day 4:** Triumphing over bugs and glitches.
+* **Day 5:** The final review; a toast to completion.
 
-### Algorithm
-The core algorithm handles quiz creation, option selection, and scoring. It ensures that quizzes are created efficiently, answers are recorded accurately, and scores are calculated correctly.
+### The Code Conundrum
+At the heart of Quizzy lies the algorithmic pulse - a rhythmic wizardry that spins the wheels of creation, chronicling answers, and tallying scores with the grace of a seasoned maestro.
 
-### Current Status
-The backend for quiz and question creation is complete. Frontend design and the import functionality for quizzes are testing.
+### Progress Pulse
+Backend brilliance ready! Frontend finery and quiz-importing alchemy in the test crucible.
 
-### Future Plan
-1. In the future, we plan to introduce a listening test feature and will support the uploading of MP3 files.
-2. We will add a scoreboard feature that will display online rankings publicly, including names, usage time, date, and rank.
-3. For individual users, we will add a test record feature to make it easy for users to look up their mistakes.
-4. In terms of user creation, we will add more levels, such as 'teacher', 'student', etc.
-5. We will add a database to create a public question bank, allowing each user to upload 1-5 question files.
-6. We will add a feature in the question settings to randomize the order of the questions and the number of questions to be answered.
-7. Mobile Responsiveness: Ensuring the application is fully responsive on various devices.
-8. Security: Enhancing security measures to protect user data and the integrity of quiz results.
+### 🌟 Future Flashes
+Tomorrow's Quizzy shines with features unheard and unseen:
+* 🎧 Audio adventures with MP3 trails.
+* 🏆 Scoreboard spectacles flaunting online glories.
+* 📚 Test records unraveling the mysteries of knowledge.
+* 🎭 User avatars ranging from wisdom-imparting teachers to knowledge-seeking students.
+* 🏦 The treasure trove of a public question vault.
+* 🔀 A merry-go-round of questions; neither knowing start nor end.
+* 📱 Device dances, ensuring a sway-friendly Quizzy.
+* 🔒 Fortified bastions guarding the sanctity of your Quizzy journey.

@@ -57,17 +57,30 @@ Here's to the dream weavers behind Quizzy:
 ### Algorithm
 #### Overall:
 ```mermaid
-flowchart LR
-    A(HomePageView) -->|Create Account| B(CreateAccount)
-    A -->|Login| C(Login)
-    C -->|Attempt Quiz| D(AttemptQuiz)
-    C -->|Import Quizzes| E(ImportQuizzes)
-    E -->|Use CSV| F(UseCSV)
-    C -->|Create Quiz| G(CreateQuiz)
-    C -->|Delete Quiz| H(DeleteQuiz)
-    C -->|Create Question| I(CreateQuestion)
-    C -->|Assign Options| J(AssignOptions)
-    D -->|Get Result| K(GetResult)
+flowchart TD
+    A[Start] --> B[Homepage View]
+    B --> C{Logged in?}
+    C -- "No" --> D[Login/Sign up View]
+    D -- "Log in Successful" --> B
+    C -- "Yes" --> F[Attempt Quiz]
+    C -- "Yes" --> G[Create Quiz]
+    C -- "Yes" --> H[Import Quiz]
+    F --> I[Answer Questions]
+    I --> J[Results View]
+    G --> K[Create Questions]
+    K -- "Assign Options" --> L[Create Options]
+    K -.-> |Create records| DB[(Database)]
+    L -.-> |Create records| DB
+    K -- "Delete Quiz" --> M[Deleted Quiz]
+    M -.-> |Delete records| DB
+    K -- "Delete Question" --> N[Deleted Question]
+    N -.-> |Delete records| DB
+    L -- "Delete Option" --> O[Deleted Option]
+    O -.-> |Delete records| DB
+    B -- "Log out" --> A
+    B --> |Read records| E[View All Quizzes, Questions & Options]
+    E -.-> |Query records| DB
+    J -.-> |Create records| DB
 ```
 
 #### Import Quizzes With CSV:

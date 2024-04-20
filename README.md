@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <a href="https://imgbb.com/"><img src="https://i.ibb.co/bBC01wb/favicon.webp" alt="favicon" border="0"></a>
+    <a href="https://ibb.co/YTLwK1z"><img src="https://i.ibb.co/zH4DLBy/20240420224105.png" alt="20240420224105" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>private image hosting</a><br />
 </p>
 
 
